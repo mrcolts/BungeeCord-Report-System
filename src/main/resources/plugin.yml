@@ -1,0 +1,4 @@
+name: ZNBungeeReport
+version: ${project.version}
+main: ru.mrcolt.znbungeereport.Main
+description: Description

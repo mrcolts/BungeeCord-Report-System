@@ -1,0 +1,22 @@
+#ZNBungeeReports config v1.0
+
+#Права:
+#znbr.bypass - вайтлист
+#znbr.report - команда репорта
+#znbr.admin - команды админа
+#znbr.patrol - патруль
+
+#Данные для подключения к базе данных.
+mysql:
+  host: localhost
+  port: '3306'
+  username: root
+  password: root
+  database: znbungeereport
+  table: reports
+
+#Список причин, по которым можно отправить жалобу.
+reasons:
+  - KillAura
+  - Speed
+  - Fly
